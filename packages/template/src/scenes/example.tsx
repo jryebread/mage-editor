@@ -5,7 +5,7 @@ export default makeScene2D(function* (view) {
   const circle = createRef<Circle>();
 
   view.add(
-    <Circle ref={circle} width={320} height={320} fill={'lightseagreen'} />,
+    <Circle ref={circle} width={320} height={320} fill={'red'} />,
   );
 
   yield* waitUntil('circle');

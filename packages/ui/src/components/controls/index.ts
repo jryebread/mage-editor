@@ -12,3 +12,4 @@ export * from './Label';
 export * from './Select';
 export * from './Toggle';
 export * from './Pill';
+export * from './TextBoxInput';

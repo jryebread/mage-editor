@@ -119,7 +119,8 @@ export function Timeline() {
     'keydown',
     useCallback(
       event => {
-        if (document.activeElement.tagName === 'INPUT') {
+        if (document.activeElement.tagName === 'INPUT' ||
+        document.activeElement.tagName === 'TEXTAREA') {
           return;
         }
         if (event.key !== 'f') return;

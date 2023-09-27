@@ -16,6 +16,26 @@
   }
 }
 
+.textarea {
+  background-color: var(--input-background);
+  color: rgba(255, 255, 255, 0.6);
+  border: 0;
+  border-radius: var(--radius);
+  padding: 8px;
+  height: 500px; // adjust this to your desired height
+  width: 100%; // adjust this to your desired width
+  font-family: var(--font-family-mono);
+
+  &:hover {
+    background-color: var(--input-background-hover);
+  }
+
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.54;
+  }
+}
+
 .iconButton {
   -webkit-appearance: none;
   display: block;

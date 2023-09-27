@@ -76,9 +76,9 @@ export function Navigation() {
         >
           <AccountTree />
         </Tab>
-        <Tab title="Thread Debugger" id="threads-tab" tab={EditorPanel.Threads}>
+        {/* <Tab title="Thread Debugger" id="threads-tab" tab={EditorPanel.Threads}>
           <ViewTimeline />
-        </Tab>
+        </Tab> */}
         <Tab
           title={errorCount > 0 ? `Console (${errorCount})` : 'Console'}
           id="console-tab"
@@ -93,6 +93,10 @@ export function Navigation() {
         </Tab>
         <Tab title="Settings" id="settings-tab" tab={EditorPanel.Settings}>
           <Settings />
+        </Tab>
+
+        <Tab title="Create" id="settings-tab" tab={EditorPanel.Create}>
+          <ViewTimeline />
         </Tab>
       </TabGroup>
       <Space />

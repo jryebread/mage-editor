@@ -8,6 +8,7 @@ import {EditorPanel, BottomPanel, SidebarPanel} from './signals';
 import {Timeline} from './components/timeline';
 import {Console} from './components/console';
 import {
+  Create,
   Properties,
   Settings,
   Threads,
@@ -37,9 +38,9 @@ export function Editor() {
             cases={{
               [EditorPanel.VideoSettings]: VideoSettings,
               [EditorPanel.Inspector]: Properties,
-              [EditorPanel.Threads]: Threads,
               [EditorPanel.Console]: Console,
               [EditorPanel.Settings]: Settings,
+              [EditorPanel.Create]: Create,
             }}
           />
           <Viewport />

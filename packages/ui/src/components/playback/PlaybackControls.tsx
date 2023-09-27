@@ -24,7 +24,9 @@ export function PlaybackControls() {
     'keydown',
     useCallback(
       event => {
-        if (document.activeElement.tagName === 'INPUT') {
+        console.log(document.activeElement.tagName)
+        if (document.activeElement.tagName === 'INPUT' ||
+        document.activeElement.tagName === 'TEXTAREA') {
           return;
         }
         switch (event.key) {

@@ -32,7 +32,7 @@ function ColorPickerImpl() {
     'keydown',
     useCallback(
       event => {
-        if (document.activeElement.tagName !== 'INPUT' && event.key === 'i') {
+        if (document.activeElement.tagName !== 'TEXTAREA' && document.activeElement.tagName !== 'INPUT' && event.key === 'i') {
           pickColor();
         }
       },
