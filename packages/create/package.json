@@ -1,10 +1,10 @@
 {
-  "name": "@motion-canvas/create",
+  "name": "@mage-canvas/create",
   "version": "3.10.1",
-  "description": "Quickly scaffold Motion Canvas projects",
+  "description": "Quickly scaffold mage canvas projects",
   "main": "index.js",
-  "author": "motion-canvas",
-  "homepage": "https://motioncanvas.io/",
+  "author": "mage-canvas",
+  "homepage": "https://usemage.com",
   "bugs": "https://github.com/motion-canvas/motion-canvas/issues",
   "license": "MIT",
   "type": "module",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/motion-canvas/motion-canvas.git"
+    "url": "https://github.com/jryebread/mage-editor"
   },
   "devDependencies": {
     "@motion-canvas/2d": "^3.10.1",
